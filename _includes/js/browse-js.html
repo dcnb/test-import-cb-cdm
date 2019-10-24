@@ -17,7 +17,7 @@ function makeCard(obj) {
     var card = '<div class="item col-lg-4 col-md-6 col-sm-12 mb-2"><div class="card">';
     // top image for photos
     if(imgSrc) {
-      card += '<a target="_blank" href="' + itemHref + '"> <img class="card-img-top lazyload" data-src="' + imgSrc + '" alt="Image of ' + obj.title + '"></a>';
+      card += '<a target="_blank" href="' + itemHref + '"> <img class="card-img-top lazyload" src="{{ "/assets/img/placeholder3x2.jpg" | relative_url }}" data-src="' + imgSrc + '" alt="Image of ' + obj.title + '"></a>';
     }
     // title
     card += '<div class="card-body text-center"> <h3 class="card-title"><a target="_blank" href="' + itemHref + '" class="text-dark">' + obj.title + '</a></h3>';
