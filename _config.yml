@@ -3,10 +3,10 @@
 
 # URL variables
 # site domain 
-url: https://www.lib.uidaho.edu
+url: https://test-cb.onrender.com
 # location on the domain
 # e.g. /digital/hjccc
-baseurl: 
+baseurl: /demo/psychiana/
 # CONTENTdm server url
 cdm-url: https://digital.lib.uidaho.edu
 # location of code
