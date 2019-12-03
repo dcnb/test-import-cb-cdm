@@ -6,7 +6,7 @@
 url: https://test-cb.onrender.com
 # location on the domain
 # e.g. /digital/hjccc
-baseurl: /demo/psychiana/
+baseurl:
 # CONTENTdm server url
 cdm-url: https://digital.lib.uidaho.edu
 # location of code
